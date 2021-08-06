@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #fff;
+}
+
+div.content {
+    display: flex;
+    height: 100%;
+}
+
+.intro {
+    background-image: url("images/elon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 65%;
+    /* border-radius: 10px; */
+    padding: 180px 60px 60px 60px;
+}
+
+.intro__bioName {
+    margin-bottom: 30px;
+}
+
+.intro__bioName span {
+    color: #ff5722;
+}
+
+.intro__bioName h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.intro__bioName h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff5722;
+}
+
+.intro__desk p {
+    font-weight: 200;
+}
+
+.intro__social {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.intro__buttonAbout a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.intro__button {
+    padding: 20px 50px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.intro__buttonAbout a:not(.buttonYes) {
+    border: 1px solid #c3c3c3;
+}
+
+.buttonYes {
+    background-color: #ff5722;
+}
+
+.button__navigation {
+    border: 1px solid #c3c3c3;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+.images__tesla img {
+    width: 100%;
+}
+
+.intro__bio {
+    width: 50%;
+}
+
+.iconify {
+    color: #2196f3;
+    font-size: 25px;
+}
+
+
+.product__title {
+    display: flex;
+    margin-bottom: 40px;
+    flex-direction: row !important;
+}
+
+.product {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(13, 34, 38, 1) 68%, rgba(45, 45, 45, 1) 100%);
+    padding: 60px;
+}
+
+
+.product__title img {
+    width: 50px;
+}
+
+.button__buy a {
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #f7f7f7;
+    background-color: #ff5722;
+}
+
+.button__buy {
+    text-align: center;
+    margin: 30px;
+}
