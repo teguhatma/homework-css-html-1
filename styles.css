@@ -21,6 +21,7 @@ body {
 div.content {
     display: flex;
     height: 100%;
+    flex-wrap: wrap;
 }
 
 .intro {
@@ -28,7 +29,7 @@ div.content {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 65%;
+    flex: 65%;
     /* border-radius: 10px; */
     padding: 180px 60px 60px 60px;
 }
@@ -108,7 +109,7 @@ div.content {
 }
 
 .product {
-    width: 35%;
+    flex: 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
